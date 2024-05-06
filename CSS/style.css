@@ -80,7 +80,7 @@ body > header > nav {
    -webkit-flex: 1 1 441px;
    flex: 1 1 441px;
    color: white;
-   background-color: red;
+   background-color: #A60505;
 }
 
 body > header > nav > ul {
