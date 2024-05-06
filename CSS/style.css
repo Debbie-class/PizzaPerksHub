@@ -53,6 +53,15 @@ header > h2 {
     color: #A60505;
 }
 
+header > h3 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #A60505;
+}
+
 /* Navigation Bar */
 
 
