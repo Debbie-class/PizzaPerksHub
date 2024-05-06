@@ -63,7 +63,8 @@ header nav.horizontal {
     left: 0px;
     width: 100%;
     -webkit-flex: 0 1;
-    flex: 0 1;   
+    flex: 0 1;  
+    float: right; 
  }
  
  header nav ul {
