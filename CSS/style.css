@@ -18,7 +18,7 @@ body {
 
 /* Header Styles */
 
-header img#logoImg {
+header > .logo {
     display: block;
     width: 100%;
 }
