@@ -20,7 +20,7 @@ body {
 
 body > header {
    border-bottom: 10px solid black;
-   color: red;
+   color: #A60505;
    display: -webkit-flex;
    display: flex;
    -webkit-flex-flow: row wrap;
@@ -79,7 +79,8 @@ header > h2 {
 body > header > nav {
    -webkit-flex: 1 1 441px;
    flex: 1 1 441px;
-   color: red;
+   color: white;
+   background-color: red;
 }
 
 body > header > nav > ul {
