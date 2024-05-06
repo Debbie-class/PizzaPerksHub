@@ -19,8 +19,8 @@ body {
 /* Header Styles */
 
 body > header {
-   border-bottom: 10px solid rgb(200, 118, 0);
-   color: #F2F2F0;
+   border-bottom: 10px solid black;
+   color: red;
    display: -webkit-flex;
    display: flex;
    -webkit-flex-flow: row wrap;
