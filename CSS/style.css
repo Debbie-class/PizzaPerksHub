@@ -162,7 +162,9 @@ header nav.horizontal {
 }
 
 .vimvideo {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Featured & See More */
