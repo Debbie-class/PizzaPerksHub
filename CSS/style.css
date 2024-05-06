@@ -37,12 +37,12 @@ body > header {
    height: auto;
 }
 
-/* header > .logo {
-    display: block;
-    width: 100%;
+ header > img {
+    float: left;
+
 }
 
-header {
+/*header {
     background: #F2F2F0;
     border-bottom: 2px solid rgb(0, 0, 0);
     color: #A60505;
