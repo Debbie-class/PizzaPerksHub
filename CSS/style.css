@@ -31,9 +31,8 @@ body > header {
    width: 100%;
 }
 
-body > header > img {
+.logo1 {
    display: inline-block;
-   float: left;
    width: 10px;
    height: auto;
 }
