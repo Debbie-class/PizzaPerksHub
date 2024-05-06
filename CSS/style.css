@@ -33,12 +33,13 @@ body > header {
 
 .logo1 {
    display: inline-block;
-   width: 10px;
+   width: 10%;
    height: auto;
 }
 
  header > img {
     float: left;
+    width: 10%
 
 }
 
