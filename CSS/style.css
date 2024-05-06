@@ -57,6 +57,7 @@ header > h3 {
     position: absolute;
     top: 15px;
     left: 10px;
+    text-align: center;
     font-size: 0.9em;
     font-weight: normal;
     color: #A60505;
