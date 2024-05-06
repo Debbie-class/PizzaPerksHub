@@ -30,16 +30,11 @@ body > header {
    margin-bottom: 30px;
    width: 100%;
 }
-
-.logo1 {
-   display: inline-block;
-   width: 10%;
-   height: auto;
-}
-
- header > img {
+header > img {
     float: left;
-    width: 10%
+    max-width: 10%;
+    max-height: 10%
+        
 
 }
 
