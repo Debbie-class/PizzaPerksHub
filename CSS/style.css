@@ -33,8 +33,7 @@ body > header {
 
 body > header > img {
    display: inline-block;
-   -webkit-flex: 0 1 200px;
-   flex: 0 1 200px;
+   float: left;
 }
 
 /* header > .logo {
