@@ -20,7 +20,7 @@ body {
 
 header img#logoimg {
     display: block;
-    width: 10%;
+    width: 25%;
 }
 
 header {
@@ -28,6 +28,7 @@ header {
     border-bottom: 2px solid rgb(0, 0, 0);
     color: #A60505;
     position: relative;
+    float:inline-end;
     width: 100%;
 }
 
