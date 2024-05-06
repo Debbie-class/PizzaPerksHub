@@ -18,27 +18,12 @@ body {
 
 /* Header Styles */
 
-body > header {
-   border-bottom: 10px solid black;
-   color: #A60505;
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-flow: row wrap;
-   flex-flow: row wrap; 
-   -webkit-align-items: flex-end;
-   align-items: flex-end; 
-   margin-bottom: 30px;
-   width: 100%;
-}
-header > img {
-    float: left;
-    max-width: 10%;
-    max-height: 10%
-        
-
+header img#logoimg {
+    display: block;
+    width: 100%;
 }
 
-/*header {
+header {
     background: #F2F2F0;
     border-bottom: 2px solid rgb(0, 0, 0);
     color: #A60505;
@@ -67,53 +52,53 @@ header > h2 {
     font-weight: medium;
     color: #A60505;
 }
-*/
 
 /* Navigation Bar */
 
 
-body > header > nav {
-   -webkit-flex: 1 1 441px;
-   flex: 1 1 441px;
-   color: white;
-   background-color: #A60505;
-}
-
-body > header > nav > ul {
-   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-flow: row nowrap;
-   flex-flow: row nowrap;
-   -webkit-justify-content: flex-end;
-   justify-content: flex-end;
-   list-style-type: none;
-}
-
-body > header > nav > ul li {
-   -webkit-flex: 0 1 auto;
-   flex: 0 1 auto;
-}
-
-body > header > nav > ul > li {
-   font-size: 1.2em; 
-   line-height: 2.3em; 
-   height: 2.3em;
-   padding: 0px 10px;
-}
-
-body > header > nav > ul > li > a {
-   color: #f2f2f2;
-   display: block;
-   width: 100%;
-   font-family: "Quicksand", sans-serif;
-}
-
-body > header > nav > ul > li > a:hover {
+header nav.horizontal {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    -webkit-flex: 0 1;
+    flex: 0 1;   
+ }
+ 
+ header nav ul {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+ }
+ 
+ nav.horizontal ul li {
+    -webkit-flex: 1 1;
+    flex: 1 1;
+    font-size: 1em;
+    line-height: 2em;
+    height: 1.7em; 
+    font-family: "Quicksand", sans-serif;
+    list-style-type: none;
+   
+           
+ }
+ 
+ nav.horizontal ul li a {
+    background-color: #A60505;
+    display: block;
+    color: #F2F2F0;
+    text-align: center;
+    list-style-type: none;
+ }
+ 
+ nav.horizontal ul li a:hover {
     background-color: white;
     color: #0D0D0D;
     text-transform: uppercase;  
     transition: 0.5s;
-}
+    list-style-type: none;
+ }
 
 /* Navigation Bar */
 
