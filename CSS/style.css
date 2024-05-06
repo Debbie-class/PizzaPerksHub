@@ -79,6 +79,7 @@ header > h2 {
 body > header > nav {
    -webkit-flex: 1 1 441px;
    flex: 1 1 441px;
+   color: red;
 }
 
 body > header > nav > ul {
