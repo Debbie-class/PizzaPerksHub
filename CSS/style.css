@@ -34,6 +34,7 @@ body > header {
 body > header > img {
    display: inline-block;
    float: left;
+   width: 10vw;
 }
 
 /* header > .logo {
