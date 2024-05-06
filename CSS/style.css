@@ -27,8 +27,7 @@ header {
     background: #F2F2F0;
     border-bottom: 2px solid rgb(0, 0, 0);
     color: #A60505;
-    position: relative;
-    float:inline-end;
+    position: absolute;
     width: 100%;
 }
 
